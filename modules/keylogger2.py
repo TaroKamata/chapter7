@@ -118,7 +118,7 @@ def run(**args):
 
     #print log.queue
 
-    time.sleep(60)
+    time.sleep(120)
 
     # ++++ 追加 ++++
     retval = ""
