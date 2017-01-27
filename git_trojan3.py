@@ -140,7 +140,7 @@ sys.meta_path = [GitImporter()]
 if len(sys.argv[1:]) > 0:
     trojan_id = sys.argv[1]   # 引数を読み取って、設定
 
-print "trojan_id = %" % trojan_id
+print ("trojan_id = %" % trojan_id)
 
 trojan_config = "%s.json" % trojan_id
 data_path     = "data/%s/" % trojan_id
