@@ -1,5 +1,8 @@
 [
     {
-        "module" : "screenshotter3"
+        "module" : "dirlist"
+    },
+    {
+        "module" : "environment"
     }
 ]
