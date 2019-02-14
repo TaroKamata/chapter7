@@ -38,7 +38,7 @@ ext2 = imghdr.what(TEMPFILE)
 
 
 # 入力ファイルの拡張子を「.{ext2}」に変更して、出力ファイル名にする
-decoded_filename = fname + '.' + ext2
+decoded_filename = '{0}.{1}'.format(fname, ext2)
 
 # base64 decode ---> ファイル書き込み
 with open(decoded_filename, 'wb') as fout:
